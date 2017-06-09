@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="js/script.js"></script>
+   
+</head>
+
+<body id="contact">
+   <div class="container">
+    <header class="header">
+       <a class="link-title" href="/">Small World, Big Adventures!</a>
+       </header> 
+       <!-- Navigation/menu - classes are used when categorizing things 
+        that apply to all pages, not just a specific page.-->
+        <nav class="menu">
+        <a href="/" target="_blank">Home</a> &nbsp; &nbsp; &nbsp;
+        <a href="about.html"target="_blank">About</a> &nbsp; &nbsp; &nbsp;
+        <a href="contact.html"target="_blank">Contact</a>
+
+       </nav>
+       
+<!-- Building Sidebars for the website-->
+       <aside>
+       
+        <h1>Sidebar</h1>
+
+       </aside>
+       
+<!-- Main div-placehold is a server that holds image backgrounds 
+     so that we can fit an image in that space later -->
+       <article class="main">
+           <h1 class="page-heading">Contact</h1>
+           
+           
+<!--Making the contact form-->
+           <div id="form">
+<!--Contact form with some PHP. The second lines(input type) under each label will let PHP know what type of input is being sent over the servers -->
+           <form method="post" action="process.php">
+               
+               <p>
+               <label for="name">Name:</label>
+               <input type="text" name="name" placeholder="Enter your name" required>
+               </p>
+               
+               <p>
+               <label for="name">Where do you hail from?</label>
+               <input type="text" name="name" placeholder="Enter your Hometown">
+               </p>
+               
+               <p>
+               <label for="name">Email:</label>
+               <input type="text" name="email" placeholder="Enter your email address" required>
+               </p>
+               
+               <p>
+               <label for="name">Subject:</label>
+               <input type="text" name="subject" placeholder="Subject" required>
+               </p>
+               
+<!--  Creates a text box so that the user can enter their question, comment or concern -->
+               <p>
+               <label for="message">Message:</label>
+               <textarea name="message" id="message" cols="30" rows="10" required> 
+               </textarea>
+               </p>
+               
+               <p>
+               
+                   <input id="submit" type="submit" name="submit" value="Send Message">
+               
+               </p>
+               
+               </form>
+
+           </div>
+           
+       </article>
+       
+<!--Creating the footer - can put link to another website after &nbsp-->
+    <footer>
+       &copy; 2017 Small World, Big Adventures! &nbsp; 
+       </footer>
+       
+   </div> 
+    
+    
+</body>
+
+</html>
