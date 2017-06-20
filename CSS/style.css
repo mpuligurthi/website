@@ -23,7 +23,7 @@ padding:0;
 #bg1{
     height:100%;
     width:100%;
-    background-image: url(fallsteps.jpg);
+    background-image: url(olympicriver.JPG);
     background-size:cover;
     background-repeat:no-repeat;
     display: table;
@@ -33,7 +33,7 @@ padding:0;
 #bg2{
     height:100%;
     width:100%;
-    background-image: url(olympicriver.JPG);
+    background-image: url(fallsteps.jpg);
     background-size:cover;
     background-repeat:no-repeat;
      display: table;
@@ -60,10 +60,19 @@ padding:0;
 #subsect2{
    width:100%;
    height: 350px;
-   background:skyblue;
+   background:darkmagenta;
     
 }
 
+#message{
+    text-align:center;
+    color:white;
+    font-size: 72px;
+    padding:0;
+    margin:0;
+    line-height:550px;
+    
+}
 
 .link-title{
     text-decoration: none;
@@ -91,7 +100,7 @@ padding:0;
 */
 
 .header{
-    padding: 45px 0 20px 40px;
+    padding: 20px 0 10px 10px;
     
 }
 
