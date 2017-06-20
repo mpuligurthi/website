@@ -16,7 +16,52 @@ body{
     
 background:black;
 margin=0;
+padding:0;
   
+}
+
+#bg1{
+    height:100%;
+    width:100%;
+    background-image: url(fallsteps.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: table;
+    background-attachment: fixed;
+}
+
+#bg2{
+    height:100%;
+    width:100%;
+    background-image: url(olympicriver.JPG);
+    background-size:cover;
+    background-repeat:no-repeat;
+     display: table;
+    background-attachment: fixed;
+}
+
+#bg3{
+    height:100%;
+    width:100%;
+    background-image: url(mountain.JPG);
+    background-size:cover;
+    background-repeat:no-repeat;
+     display: table;
+    background-attachment: fixed;
+}
+
+#subsect1{
+   width:100%;
+   height: 350px;
+   background:skyblue;
+    
+}
+
+#subsect2{
+   width:100%;
+   height: 350px;
+   background:skyblue;
+    
 }
 
 
@@ -44,20 +89,7 @@ margin=0;
     
 }
 */
-/*.hero{
-    width:100%;
-    height:auto;
-    min-width:1024px;
-    min-height:100%;
-    background-image:linear-gradient(rgba(26,26,26,0.6), rgba(26,26,26,0.6)), url("fallsteps.jpg");
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position:center center;
-    position:fixed;
-    top:0;
-    left:0;
-    
-}*/
+
 .header{
     padding: 45px 0 20px 40px;
     
@@ -82,40 +114,17 @@ margin=0;
 
 .menu a:hover{
     
-   color:blue;
+   color:yellow;
     
 }
 
 
-.sect{
-    
-  height:100%;
-  top=0;
-  background-attachment:fixed;
-  background-size:cover;
-  background-repeat: no-repeat;
-}
-
-#img1, #img2, #img3{
-    opacity: 0.6;
-}
-
-.subsect{
-   width:100%;
-   height: 225px;
-   background:skyblue;
-    
-}
-
-
-
-
-/*h1{
+h1{
     color:white;
     font-size: 24px;
     font-family: "Times New Roman", "Comic Sans MS";
     font-weight: normal;
-}*/
+}
 
 /*h2{
     color:yellowgreen;
@@ -130,11 +139,6 @@ margin=0;
     line-height:18px;
     text-align:center;
 }
-
-.main a:hover{
-    color: deeppink;
-}
-
 
 footer{
     padding:6px 40px 6px 40px;
