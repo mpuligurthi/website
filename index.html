@@ -4,21 +4,36 @@
     <meta charset="UTF-8">
     <title>Website</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="jquery-3.2.1.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/typed.js"></script>
 </head>
     
-    
 <body>
+    
+<!--Website Title and background images-->
     <header class="header">
        <a class="link-title" href="/">Small World, Big Adventures!</a>
-       </header> 
-    
-    <nav class="menu">
-        <a href="/" target="_blank">Home</a> &nbsp; &nbsp; &nbsp;
-        <a href="about.html">About</a> &nbsp; &nbsp; &nbsp;
-        <a href="contact.html">Contact</a>
-       </nav>
+        
+        <nav role="navigation">
+        
+        <div id="menuToggle">
+          <input type="checkbox">
+            
+            <span></span>
+             <span></span>
+             <span></span>
+            <ul id="menu">
+            <a href="#"><li>Home</li></a>
+              <a href="about.html"><li>About</li></a>
+                  <a href="#"><li>Travels</li></a>
+                  <a href="contact.html"><li>Contact</li></a>
+                
+            </ul>
+            </div>
+        
+        </nav>
+    </header>
     
     <div id = "bg1">
     <div class="element">Welcome!</div>
@@ -33,6 +48,5 @@
     <a href="http://readysetgrowth.blogspot.com/" target="_blank">Check out my Girl Scout Gold Award Project blog here!</a>
        
 </footer> 
-
 </body>
 </html>
