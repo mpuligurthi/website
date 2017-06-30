@@ -105,26 +105,30 @@ a{
 }
 
 a:hover{
-    color:green;
+    color:deepskyblue;
     
 }
 
 #menuToggle{
     display:block;
-    position:relative;
+    position:fixed;
     left:40px;
     z-index: 1;
     -webkit-user-select:none;
     user-select:none;
     
 }
+#menuToggle a:hover{
+    color:green;
+}
 
 #menuToggle input {
     display:block;
+    position:relative;
     width: 32px;
     height: 40px;
-    top:10px;
-    left: 5px;
+    left:5px;
+    top:40px;
     cursor:pointer;
     opacity:0;
     z-index: 2;
@@ -132,9 +136,9 @@ a:hover{
 
 #menuToggle span{
     display:block;
-    width: 40px;
-    height: 4px;
-    margin-bottom: 5px;
+    width: 50px;
+    height: 6px;
+    margin-bottom: 8px;
     position:relative;
     background: white;
     border-radius:3px;
@@ -174,7 +178,7 @@ a:hover{
     position: absolute;
     width: 300px;
     height:225px;
-    margin: -100px 0 0 -50px;
+    margin: -125px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
     background: #cdcdcd;
@@ -193,6 +197,7 @@ a:hover{
     transform: scale(1.0,1.0);
     opacity:1;
 }
+
 
 
 /*More Header Styling*/
