@@ -3,55 +3,69 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Website</title>
+    <title>Travels</title>
     <link rel="stylesheet" href="CSS/style.css">
     <script src="js/script.js"></script>
     <script src="js/typed.js"></script>
+    <style>
+        #map{
+            height:400px;
+            width:100%;
+        }
     
+    
+    
+    
+    </style>
 </head>
     
 <body>
 
 <!--Website Title and background images-->
+
     <header class="header">
-       <a class="link-title" href="/">Small World, Big Adventures!</a>
+       <a class="link-title" href="index.html">Small World, Big Adventures!</a>
         
-         <nav role="navigation">
+    </header>
+    
+
+<!--Include Google Maps here -->
+
+<div id="map"></div>
+<script>
+    
+    function initMap(){
+        var options = {
+            zoom:8,
+            center:{lat:32.7767, lng:-96.7970}
+        }
         
-        <div id="menuToggle">
+        var map = new google.maps.Map(document.getElementById('map'), options);
+    }
+    
+    
+    </script>
+ <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAb2s1yL8IbdE8xs-2EW58uZ-SAuSRBtV8&callback=initMap">
+    </script>
+    
+    <nav role="navigation">
+    <div id="menuToggle">
           <input id="menuToggle" type="checkbox">
 
             <span></span>
              <span></span>
              <span></span>
             <ul id="menu">
-            <a href="#"><li>Home</li></a>
+            <a href="index.html"><li>Home</li></a>
               <a href="about.html"><li>About</li></a>
                   <a href="travels.html"><li>Travels</li></a>
                   <a href="contact.html"><li>Contact</li></a>
                 
             </ul>
-            </div>
-        
-        </nav>
-    </header>
-        
+        </div>
     
-<!--Content here -->
-    <div id = "travels-image"></div>
-    <div id="subsect1"></div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
- <footer>
-       &copy; 2017 Small World, Big Adventures! &nbsp; <span class="separator">|</span>  
-    <a href="http://readysetgrowth.blogspot.com/" target="_blank">Check out my Girl Scout Gold Award Project blog here!</a>  
-</footer>    
+    </nav>
+
 </body>
 </html>
