@@ -51,7 +51,7 @@
         
  //iconImage:'https://lonelyplanetimages.imgix.net/mastheads/93931301.jpg?sharp=10&vib=20&w=1200'  - TODO ADD ICONS
         
-        //Array of markers
+        //Array of markers - add to this array each time you are defining a new location
         var markers = [
         {
         coords:{lat:19.4326, lng:-99.1332},
@@ -98,7 +98,10 @@
             infoWindow.open(map, marker);
         });
             }
+         //TODO For later: make the icons bounce or drop   
+       
         }
+        
     }
     
     
@@ -107,6 +110,7 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAb2s1yL8IbdE8xs-2EW58uZ-SAuSRBtV8&callback=initMap">
     </script>
     
+    <!--Navigation Menu-->
     <nav role="navigation">
     <div id="menuToggle">
           <input id="menuToggle" type="checkbox">
@@ -124,6 +128,22 @@
         </div>
     
     </nav>
+    
+    <div id = "travels-image">
+    <div class="element">Prepare to be immersed...</div>
+    </div>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      Typed.new('.element', {
+        strings: ["Prepare to be immersed...", "Make your mark...", "Begin your next adventure..."],
+        typeSpeed: 40
+      });
+  });
+
+    </script>
+    
+ <div id="tsubsect1"></div>
 
 </body>
 </html>

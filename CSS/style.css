@@ -278,29 +278,36 @@ footer a{
     height:30px;
 }
 
-/* Travels page styling*/
+/***************************** Travels page styling***********************/
 
-/*
+/*Quill and ink image with blank parchment*/
 #travels-image{
     height:100%;
     width:100%;
-    background-image: url(quill_ink.jpg);
+    background-image: url(quill_light.jpg);
     background-size:cover;
     background-repeat:no-repeat;
      display: table;
     background-attachment: fixed;   
 }
-*/
 
-/*
+/*Text on the quill and ink image*/
+#travels-image .element{
+    color:darkcyan;
+   
+}
+
+
+
 #tsubsect1 {
    width:100%;
    height: 350px;
    background:red;
 }
-*/
 
-/*
+
+
+
 #tsubsect1 p {
    color:white;
 }
