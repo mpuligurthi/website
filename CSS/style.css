@@ -225,7 +225,7 @@ footer{
     color:green;
     background:gold;
     font-family:"Lucida Sans Unicode";
-    font-size:11px;
+    font-size:15px;
     text-decoration:right;
     border-radius:5px;
 }
@@ -319,6 +319,7 @@ footer a{
    color:white;
 }
 
+/************Background Images for each country***********/
 #mexico{
     background-image: url(pyramid.jpg);
     height:100%;
@@ -380,6 +381,7 @@ footer a{
     background-attachment: fixed; 
 }
 
+/*******************Social Media icons styling*********************/
 ul{
     margin:0;
     padding:0;

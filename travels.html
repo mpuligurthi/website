@@ -13,6 +13,10 @@
             height:100%;
             width:100%;
         }
+        
+        i{
+            cursor:pointer;
+        }
 
     </style>
 </head>
@@ -45,14 +49,14 @@
     
     </nav>
     
-    <!-- Background image and subsection under map-->
+    <!-- First background image with animated text-->
     <div id = "travels-image">
-    <div class="element">Prepare to be immersed...</div>
+    <div class="element">Be immersed...</div>
     </div>
     <script>
     document.addEventListener('DOMContentLoaded', function() {
       Typed.new('.element', {
-        strings: ["Prepare to be immersed...", "Make your mark...", "Begin your next adventure..."],
+        strings: ["Be immersed...", "Make your mark...", "Start your next adventure..."],
         typeSpeed: 40
       });
   });
@@ -76,7 +80,7 @@
 <div id = "india">
     <a href="india.html" title="India" id="india" target="_blank"></a></div>
     
-<!--Google Maps embedded here-->
+<!--Google Map with all travel destinations embedded here-->
 <div id="map"></div>
 <script>
     
@@ -156,16 +160,20 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAb2s1yL8IbdE8xs-2EW58uZ-SAuSRBtV8&callback=initMap">
 </script>
     
+<footer>
+       &copy; 2017 Small World, Big Adventures! &nbsp; 
+ </footer>
 <!--Social Media icons-->
-    <ul>
-    <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
-    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-    </ul>
-    
-    
 
+    <ul>
+        <li><a href="https://www.google.com/gmail/about/" title="Shoot us an email!" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+        
+        <li><a href="https://www.facebook.com/" title="Like us on Facebook!" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        
+        <li><a href="https://twitter.com/" title="Follow us on Twitter!" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        <li><a href="https://www.instagram.com/?hl=en" title="Follow us on Instagram!" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
     
 </body>
 </html>
