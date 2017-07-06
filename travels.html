@@ -9,7 +9,7 @@
     <script src="js/typed.js"></script>
     <style>
         #map{
-            height:500px;
+            height:100%;
             width:100%;
         }
 
@@ -43,8 +43,40 @@
         </div>
     
     </nav>
+    
+    <!-- Background image and subsection under map-->
+    <div id = "travels-image">
+    <div class="element">Prepare to be immersed...</div>
+    </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      Typed.new('.element', {
+        strings: ["Prepare to be immersed...", "Make your mark...", "Begin your next adventure..."],
+        typeSpeed: 40
+      });
+  });
 
-<!--Include Google Maps here -->
+    </script>
+    
+ <div id="tsubsect1"></div>
+<div id = "mexico">
+    <a href="mexico.html" title="Mexico" id="mexico"></a></div>
+    
+<div id="tsubsect2"></div>
+<div id = "canada">
+    <a href="canada.html" title="Canada" id="canada"></a> </div>
+
+<div id="tsubsect3"></div>  
+ <div id = "usa">
+     <a href="usa.html" title="U.S.A" id="usa"></a></div> 
+    
+ <div id="tsubsect4"></div>   
+<div id = "india">
+    <a href="india.html" title="India" id="india"></a></div>
+    
+
+
+ <!--Include Google Maps here -->
 
 <div id="map"></div>
 <script>
@@ -125,29 +157,7 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAb2s1yL8IbdE8xs-2EW58uZ-SAuSRBtV8&callback=initMap">
 </script>
     
-   
-    
-<!-- Background image and subsection under map-->
-    <div id = "travels-image">
-    <div class="element">Prepare to be immersed...</div>
-    </div>
-    
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      Typed.new('.element', {
-        strings: ["Prepare to be immersed...", "Make your mark...", "Begin your next adventure..."],
-        typeSpeed: 40
-      });
-  });
-
-    </script>
-    
- <div id="tsubsect1"></div>
-<div id = "mexico">
-    <a href="mexico.html" title="Mexico" id="mexico">Mexico</a>
 
     
-    
-    </div>
 </body>
 </html>

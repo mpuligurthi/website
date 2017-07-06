@@ -289,7 +289,7 @@ footer a{
 /*Quill and ink image with blank parchment*/
 #travels-image{
     
-    background-image: url(quill_light.jpg);
+    background-image: url(quill_3.jpg);
     height:100%;
     width:100%;
     background-size:cover;
@@ -300,7 +300,7 @@ footer a{
 
 /*Text on the quill and ink image*/
 #travels-image .element{
-    color:red;
+    color: yellow;
    
 }
 
@@ -321,13 +321,69 @@ footer a{
 
 #mexico{
     background-image: url(pyramid.jpg);
-    height:500px;
+    height:100%;
     width:100%;
     background-size:cover;
     background-repeat:no-repeat;
-    display: block;
-    text-indent:-9999px;
+    display: table;
     background-attachment: fixed; 
+}
+
+#tsubsect2 {
+   width:100%;
+   height: 350px;
+   background:darkmagenta;
+}
+#canada{
+    background-image: url(canadian-flag.jpeg);
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: table;
+    background-attachment: fixed;
+    
+}
+
+
+#tsubsect3 {
+   width:100%;
+   height: 350px;
+   background:darkcyan;
+}
+
+
+
+#usa{
+    background-image: url(statue.jpg);
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: table;
+    background-attachment: fixed; 
+}
+
+#tsubsect4 {
+   width:100%;
+   height: 350px;
+   background:darkmagenta;
+}
+
+#india{
+    background-image: url(taj_mahal.jpg);
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:table;
+    background-attachment: fixed; 
+}
+
+#tsubsect5{
+   width:100%;
+   height: 350px;
+   background:darkcyan;
 }
 
 
